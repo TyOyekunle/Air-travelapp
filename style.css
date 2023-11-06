@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&family=Volkhov:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: red;
+    
+   }
+#page-box{
+ 
+    padding-left: 30px;
+    padding-top: 30px;
+    border-style: dashed;
+    width: 1189.08px;
+    height: 790px;
+    flex-shrink: 0;
+    background: white;
+    resize: both;
+  }
+   .navbar {
+    overflow: auto;
+    width: 100%;
+    margin-left: 150px;
+  }
+  #navdiv{
+    
+  }
+  ul{
+    list-style-type: none;
+    margin: 0 0 0 200px;
+    padding: 0;
+    overflow: auto;
+  }
+  li{
+    float: left;
+  }
+  li a{
+    font-family: calibri;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    height: 50px;
+
+  }
+  .logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .sign-up{
+    font-size: 17px;    
+    }
+    
+    
+    /* body of the design*/
+    h1{
+        color: #DF6951;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    
+    margin-top: 70px;
+    }
+    .travel-text{
+        color: #181E4B;
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: 700;
+    line-height: 80px;
+    word-wrap: break-word;
+    margin-top: 8px;
+    font-weight: bolder;
+    }
+    .middle-text{
+        font-family: Poppins;
+        font-size: 16px;
+        margin-top: 5px ;
+
+    }
+    .more-button {
+        background-color: orange;
+        color: white;
+        width: 200px;
+        border: none;
+        border-radius:5px;
+        height: 60px;
+        font-family: Opensans;
+        font-size: 20px;
+      }
+      .more-image{
+        width:100px;
+        border-radius:4px;
+        height: 70px;
+        margin-left: 10px;
+      }
+      .play-demo{
+        width:10px;
+        border-radius:4px;
+        height: 120px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+      .lady-image-div{
+        margin-right: 0px;
+        box-align:right;
+        margin-top: 5px;
+        float: middle;
+        
+      }
+ .lady-image{
+    width: 700px;
+     margin-top: 70x;
+    height: 1000px;
+    float: right;
+    margin-left: 0px;
+    height: 600px;
+    flex-shrink: 0;
+    text-align: top;
+ }
+ .lower-section{
+    float: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+    
